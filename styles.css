@@ -4,9 +4,8 @@
     padding: 0;
 }
 
-.row .border {
+.border {
     border: 1px solid black !important;
-    ;
 }
 
 .row {
