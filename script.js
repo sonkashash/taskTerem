@@ -10,11 +10,9 @@ $(document).ready(function () {
       if (!blockMoving) {
         $block1.insertAfter($block2);
         blockMoving = true;
-        console.log('true')
       } else {
         $block1.insertBefore($block2);
         blockMoving = false;
-        console.log('false')
       }
     });
 
