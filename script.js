@@ -1,7 +1,6 @@
 /* -----------------------FOR index.html----------------------- */
 $(document).ready(function () {
     $(".btn-warning").click(function () {
-      console.log('ki')
       $("#block0 .border").toggle();
       $("#block0").toggle();
     });
