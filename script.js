@@ -1,7 +1,6 @@
 /* -----------------------FOR index.html----------------------- */
 $(document).ready(function () {
     $(".btn-warning").click(function () {
-      $("#block0 .border").toggle();
       $("#block0").toggle();
     });
     let blockMoving = false;
