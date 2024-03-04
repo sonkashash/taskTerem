@@ -1,19 +1,21 @@
 /* -----------------------FOR index.html----------------------- */
-* {
+body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.row .border {
-    border: 1px solid black !important;
+.header {
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.blockVisibility {
+    display: none;
 }
 
 .row {
     margin-bottom: 10px;
-}
-
-.row:nth-child(2) .col {
-    border-style: dashed;
 }
 
 .block {
@@ -21,17 +23,17 @@
     border: 1px solid black;
 }
 
-#block1 {
-    background-color: lightblue;
+.yellow {
+    background-color: yellow;
 }
 
-#block2 {
+.green {
     background-color: lightgreen;
     border-style: dashed;
 }
 
-#block3 {
-    background-color: lightcoral;
+.blue {
+    background-color: blue;
 }
 
 #block4,
