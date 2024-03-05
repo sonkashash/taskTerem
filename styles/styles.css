@@ -10,17 +10,37 @@ body {
     border: 1px solid black;
 }
 
-.blockVisibility {
-    display: none;
+.modal_background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0;
 }
 
-.row {
-    margin-bottom: 10px;
+.modal_window {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-inline: 40%;
+    margin-top: 1%;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.blockVisibility {
+    display: none;
 }
 
 .block {
     height: 100px;
     border: 1px solid black;
+    margin-bottom: 10px;
 }
 
 .yellow {
@@ -36,10 +56,6 @@ body {
     background-color: blue;
 }
 
-#block4,
-#block5 {
-    padding: 10px;
-}
 
 /* -----------------------FOR forma.html----------------------- */
 
