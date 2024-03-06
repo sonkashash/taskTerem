@@ -10,62 +10,48 @@
 
 <body>
 
-    <form id="Form">
-        <label for="list1">Список 1:</label>
-        <select id="list1" name="list1">
+    <form class="form">
+        <select name="dropdown1">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-
-        <label for="list2">Список 2:</label>
-        <select id="list2" name="list2">
+        <select name="dropdown2">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-
-        <label for="list3">Список 3:</label>
-        <select id="list3" name="list3">
+        <select name="dropdown3">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-
-        <label for="list4">Список 4:</label>
-        <select id="list4" name="list4">
+        <select name="dropdown4">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-
-        <label for="list5">Список 5:</label>
-        <select id="list5" name="list5">
+        <select name="dropdown5">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-
-        <label for="input1"></label>
-        <input type="text" id="input1" name="input1">
-
-        <label for="input2"></label>
-        <input type="text" id="input2" name="input2">
-
-        <button type="submit">Отправить</button>
+        <input type="text" name="input1" placeholder="Input 1">
+        <input type="text" name="input2" placeholder="Input 2">
+        <!-- <input type="submit" value="send" onclick="submitForm()"> -->
+        <button type="button" onclick="formSubmit()">Submit</button>
     </form>
-
-    <div id="json-output"></div>
+    <div class="output"></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../scripts/script.js"></script>
