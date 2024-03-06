@@ -20,13 +20,14 @@ const blockChange = (el1, el2) => {
 };
 
 /* -----------------------FOR forma.html----------------------- */
-
-const formSubmit = async () => {
+const jsonPrint = () => {
   form.querySelectorAll("select, input").forEach((el) => {
     formData[el.name] = el.value;
   });
   output.innerText = JSON.stringify(formData, null, 2);
+};
 
+const getRequest = async () => {
   try {
     const response = await fetch(url);
 
@@ -39,6 +40,11 @@ const formSubmit = async () => {
   } catch (error) {
     console.error("Error:", error);
   }
+};
+
+const formSubmit = () => {
+  jsonPrint();
+  getRequest();
 };
 
 // async function submitForm() {
